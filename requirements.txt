@@ -1,0 +1,18 @@
+jupyter-client==6.1.12
+jupyter-console==6.1.0
+jupyter-server==1.24.0
+jupyter_core==5.7.2
+jupyterlab_pygments==0.3.0
+jupyterlab_widgets==3.0.10
+matplotlib==3.7.1
+matplotlib-inline==0.1.7
+matplotlib-venn==0.11.10
+numpy==1.25.2
+pandas==2.0.3
+pathlib==1.0.1
+Pillow==9.4.0
+requests==2.31.0
+torch @ https://download.pytorch.org/whl/cu121/torch-2.2.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=1adf430f01ff649c848ac021785e18007b0714fdde68e4e65bd0c640bf3fb8e1
+torchvision @ https://download.pytorch.org/whl/cu121/torchvision-0.17.1%2Bcu121-cp310-cp310-linux_x86_64.whl#sha256=27af47915f6e762c1d44e58e8088d22ac97445668f9f793524032b2baf4f34bd
+tqdm==4.66.2
+zipp==3.18.1
