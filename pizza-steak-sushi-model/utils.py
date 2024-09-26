@@ -2,6 +2,8 @@
 Содержит вспомогательные фукнции для работы с моделью
 """
 import torch
+from torch import nn
+import torchvision
 from pathlib import Path
 from typing import List, Tuple
 
@@ -49,7 +51,7 @@ def predAndPlotImage(
     class_names: List[str],
     image_size: Tuple[int, int] = (224, 224),
     transform: torchvision.transforms = None,
-    device: torch.device = device
+    device: torch.device = 'cpu'
   ) -> None:
   # 2. Откроем изображение с помощью PIL
   img = Image.open(image_path)
